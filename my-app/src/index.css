@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.bg-image {
+  background-image: url('../public/HeroBg.png');
+}
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+.max-w-unset {
+  max-width: unset;
+}
+.w-unset {
+  width: unset;
+}
+/* testing */
+.border {
+  border: solid 1px red;
+}
+
+.outline {
+  outline: solid 1px red;
+}
+
+/* * {
+  outline: solid 1px red;
+} */
